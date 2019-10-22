@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		p {
+		  color: black;
+		  text-align: left;
+		  font-family: "Courier New Lucida Console", Times, serif;
+		  font-size: 40px;
+		} 
+		h3{
+			color: black;
+			text-align: left;
+			font-family: "Courier New Lucida Console", Times, serif;
+		}
+		body {background-color: #f0c2e0;}
+		table {
+			border-collapse:collapse;
+			border:solid red 1px;
+			border-radius:6px;
+			-moz-border-radius:6px;
+		}
+
+		td, th {
+			border-left:solid red 1px;
+			border-top:solid red 1px;
+		}
+
+		th {
+			background-color: grey;
+			border-top: none;
+		}
+
+		td:first-child, th:first-child {
+			border-left: none;
+		}
+		</style>
+	</head>
+	
+	<body>
+		<h1> HTML for Lists </h1>
+			<h3>Start Tags for: </h3>
+			<ul>
+				<li>an ordered list: < ol></li>
+				<li>an unordered list: < ul></li>
+				<li>a description list: < dl></li>
+				<li>a list item: < li></li>
+				<li>a description term: < dt></li>
+				<li>a description data: < dd></li>
+			</ul>
+		<hr>
+		<h1> CSS for Lists </h1>
+			<ol>
+				<li>Make bullet a square:</li>
+				<ul><li>ul.b { list-style-type: square;}</li></ul>
+				<li>Make bullet an image named "my-bullet.png": </li>
+				<ul><li>ul {list-style-image: url('my-bullet.png');}</li></ul>
+				<li>Make bullet an uppercase roman number: </li>
+				<ul><li>ul.b { list-style-type: upper-roman;}</li></ul>
+				<li>Set bullet positionto be inside the list item's text flow: </li>
+				<ul><li>ul.b { list-style-position: inside;}</li></ul>
+				<li>Set bullet position to be outside the list item's text flow: </li>
+				<ul><li>ul.b { list-style-position: outside;}</li></ul>
+			</ol>
+		<hr><hr>
+		<h1>HTML for Tables</h1>
+			<h3>Start Tags for: </h3>
+			<ul>
+				<li>a table: < table></li>
+				<li>a table row: < tr></li>
+				<li>a table header: < thead></li>
+				<li>a table header cell: < th></li>
+				<li>a table body: < tbody></li>
+				<li>a table cell: < td></li>
+				<li>a table footer: < tfoot></li>
+				<li>a table footer cell: < td></li>
+			</ul>
+		<hr>
+		<h1>CSS for Tables</h1>
+		<ol>
+			<li>Black dotted border of 1px width</li>
+			<ul><li>th, td { border: 1px solid black;}</li></ul>
+			<li>Solid border of 1 px width having a red color and rounded corners </li>
+				<ul><li>table th, td { border: 1px solid red;border-radius 6px; }</li></ul>
+			<li>Merge the borders of table cells so that they appear as one line
+			<ul><li>th, td { border-bottom: 1px solid#ddd;}</li></ul>
+		</ol>
+	</body>
+</html>
